@@ -12,7 +12,7 @@ public class KLargestElements {
     int arr[] = {1, 3, 2, 4, 5, 6, 8, 9, 11, 10};
     int q = 0;
     public static Random random = new Random();
-    public static int numTrials = 1;
+    public static int numTrials = 100;
     int T = 17; //Threshold
 
 
