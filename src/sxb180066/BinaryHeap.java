@@ -16,6 +16,7 @@ public class BinaryHeap<T extends Comparable<? super T>> {
     public BinaryHeap(T[] q) {
         // Use a lambda expression to create comparator from compareTo
         this(q, (T a, T b) -> a.compareTo(b));
+        size=0;
     }
 
     // Constructor for building an empty priority queue with custom comparator
